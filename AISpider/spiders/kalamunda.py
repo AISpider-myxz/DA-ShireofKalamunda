@@ -12,7 +12,7 @@ class KalamundaSpider(scrapy.Spider):
     start_urls = ["https://onlineservices.kalamunda.wa.gov.au/userHome.asp?u=544&mode=processForm&syn_applicationNumber=&syn_dateFrom=&syn_dateTo=&syn_lot=&syn_unit=&syn_streetNumber=&syn_streetName=&syn_streetType=&syn_suburb=&syn_postcode=&req_type=syn_listDevelopmentApplications&syn_submitNewDevelopmentApplicationSearch=Search"]
     custom_settings = {
         'LOG_STDOUT': True,
-        'LOG_FILE': 'scrapy_kalamunda.log',
+        #'LOG_FILE': 'scrapy_kalamunda.log',
         'DOWNLOAD_TIMEOUT': 1200
     }
 
